@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/body_bg.png);
+}
+.header{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #7E4CEC;
+    border-bottom: 4px solid #A68EE8;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: initial;
+    font-family:'Raleway', sans-serif;;
+}
+.header_home{
+    padding-top: 6px;
+}
+.header_nav ul{
+    list-style: none;
+    display: flex;
+}
+.header_nav li{
+    padding: 20px 10px;
+}
+.header_nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+.header_nav ul ul{
+    list-style: circle;
+    display: none;
+    position: absolute;
+    top: 95%;
+    background-color: white;
+    width: 195px;
+    padding: 0 15px;
+}
+.header ul ul a{
+    color: black;
+    padding: 10px;
+}
+.header ul ul li{
+    padding: 0 ;
+    border-bottom: 1px solid grey;
+}
+.header ul li:hover>ul{
+    display: block;
+}
+.header_nav a:hover{
+    border-bottom: 5px solid #A68EE8;
+}
+.header ul ul a:hover{
+    color: green;
+    border-bottom: none;
+}
+.btn-comprar{
+    background-color: #000;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    width: min-content;
+    border-bottom: 3px solid #4F3A99;
+}
+.btn-comprar a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.btn-comprar:hover{
+    background-color: #4F3A99;
+}
+.slider{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+
+.otros{
+    padding: 25px 25px;
+}
+.container1{
+    margin: 100px 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 140px;
+}
+.card{
+    width: 31.5%;
+    height: 300px;
+    padding: 10px;
+}
+.card-color-1{
+    background-color: #7E4CEC;
+}
+.card-color-2{
+    background-color: #A68EE8;
+}
+.card-color-3{
+    background-color: #7E4CEC;
+}
+.card-color-4{
+    background-color: #A68EE8;
+}
+.cardbody img{
+    width: 100%;
+    height: 240px;
+}
+.cardtitle{
+    margin: 10px 0;
+    font-size: 12px;
+}
+.cardtitle a{
+    text-decoration: none;
+    color:white
+}
+.cardtitle a:hover{
+    color: rgb(255, 236, 130);
+}
+.cardbuttom{
+    width: 70%;
+    padding: 8px 10px;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    top: 1px;
+    bottom: 7px;
+}
+.button-1{
+    background-color: #4F3A99;
+    border-bottom: 3px solid #A68EE8;
+    bottom: 90px;
+}
+.button-2{
+    background-color: #7E4CEC;;
+    border-bottom: 3px solid #A68EE8;
+    bottom: 70px;
+}
+.button-3{
+    background-color: #4F3A99;
+    border-bottom: 3px solid #A68EE8;
+    bottom: 70px;
+}
+.button-4{
+    background-color: #7E4CEC;
+    border-bottom: 3px solid #A68EE8;
+    bottom: 15px;
+}
+.cardbuttom a{
+    text-decoration: none;
+    color: white;
+}
+.container2{
+    margin: 50px 100px;
+}
+.container2 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.patrocinador{
+    margin: 15px 0px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patrocinador_img{
+    margin: 10px 20px;
+}
+.patrocinador_img img{
+    width: 100px;
+    height: 100px;
+}
+.container3{
+    margin: 50px 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.container3 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.comunicacion p{
+    font-size: 14px;
+    color: #525252;
+    font-family: 'Raleway', sans-serif;
+}
+.btn-com{
+    margin-left: 15px;
+    padding: 10px 30px;
+    background-color: #7E4CEC;
+    border-bottom: 3px solid #A68EE8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.btn-com:hover{
+    background-color: rgba(68, 197, 17, 0.616);
+}
+.btn-com a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-image: url(https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/footer_bg.png);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.unete{
+    background-color: #4F3A99;
+    padding: 20px;
+}.unete input{
+     width: 85%;
+     height: 25px;
+     margin-top: 10px;
+     margin-bottom: 5px;
+ }
+.links, .ayuda{
+    padding: 20px;
+}
+.links ul, .ayuda ul{
+    list-style: none;
+}
+.links li, .ayuda li{
+    padding: 3px 0;
+}
+.links a, .ayuda a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover, .ayuda a:hover{
+    color:rgb(255, 236, 130)
+}
+.ayuda{
+    display: flex;
+    align-items: center;
+}
+
+footer .redes{
+    text-align: center;
+    width: 13%;
+}
+
+.redes .fa.conectate {
+    background: #ffffff;
+    color: #7E4CEC;
+    font-size: 27px;
+    padding: 8px;
+    text-align: center;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+.fa.conectate {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: #8ABA1B;
+    color: #ffffff;
+}
+.foot{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot ul{
+    list-style: none;
+}
+.entidades li{
+    display: block;
+    float: left;
+}
+.entidades img{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.derechos{
+    border-top: 1px solid rgb(163, 163, 163);
+}
+.derechos li{
+    display: block;
+    float: left;
+}
+.derechos a, li{
+    padding: 10px;
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li.llamar {
+    background: url('https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/llamar.png') no-repeat left 4px;
+    padding-left: 30px;
+}
+li.correo {
+    background: url('https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/correo.png') no-repeat left 8px;
+    padding-left: 30px;
+}
+li.llegar {
+    background: url('https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/mapa.png') no-repeat left 0;
+    line-height: 26px;
+    padding-left: 36px;
+}
+li.parqueo {
+    background: url('https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/parqueadero.png') no-repeat 4px 0;
+    line-height: 28px;
+    padding-left: 30px;
+}
+li.calendario {
+    background: url('https://ventaspop-01-static.staticgnt.com/ce5013da/themes/salitre/images/calendario.png') no-repeat 6px 0;
+    line-height: 22px;
+    padding-left: 30px;
+}
+
